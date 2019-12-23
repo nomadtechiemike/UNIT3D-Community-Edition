@@ -200,6 +200,7 @@ class User extends Authenticatable
         'passkey',
         'rsskey',
         'remember_token',
+        'api_token',
     ];
 
     /**
