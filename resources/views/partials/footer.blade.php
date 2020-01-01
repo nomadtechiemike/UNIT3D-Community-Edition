@@ -1,6 +1,6 @@
 @php $bg = rand(1, 13); $bgchange = $bg.".jpg"; @endphp
 <br>
-<div id="l-footer" style="background-image: url('/img/footer/{{ $bgchange }}');">
+<div id="l-footer" style="background-image: url('/img/footer/{{ $bgchange }}')!important;">
     <div class="container">
         <div class="col-md-2 l-footer-section">
             <h2 class="l-footer-section-title"><span class="text-bold">{{ config('other.title') }}</span></h2>
